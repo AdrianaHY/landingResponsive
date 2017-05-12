@@ -102,3 +102,7 @@ footer{
   background: #707070;
   padding:2%;
 }
+/**/
+#icon{
+  display:none;
+}
