@@ -68,8 +68,18 @@ img{
 #tituloParrafos{
   font-size: 4em;
 }
-#seccionVideo{
+.secciones{
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedores{
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+#seccionVideo{
+
   background: #707070;
   padding:3%;
 }
@@ -77,4 +87,18 @@ img{
   font-size: 5em;
   padding: 1%;
   margin:1%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 40%;
+  padding:3%;
+}
+footer{
+  background: #707070;
+  padding:2%;
 }
