@@ -26,16 +26,24 @@ nav{
   justify-content: space-around;
 }
 #seccionHome{
-  background: #909090;
+  background: #BE6870;
   align-items: center;
   align-content: center;
   justify-content: space-around;
+}
+#portadaHome{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  align-content: center;
+
 }
 #textoHome{
   padding:10%;
   font-size: 8vw;
 }
 #seccionParrafos{
+  background: #999999;
   flex-direction: row;
   flex-direction: row;
   flex-wrap: wrap;
@@ -47,6 +55,9 @@ nav{
   align-items: center;
   align-content: center;
   justify-content: center;
+  font-size: 5vw;
+  color:#8ED1C7;
+  align-content: center;
 }
 #parrafoDos{
   align-items: center;
@@ -55,18 +66,27 @@ nav{
 }
 .width{
   width: 40%;
-}
 
+}
+p{
+  background:#fff;
+  padding: 1%;
+  border-top: 4px solid #A02841;
+  border-bottom: 4px solid #A02841;
+}
 .textoSecciones{
   padding:2%;
   margin: 2%;
 }
 img{
   margin:2%;
-  padding:1%;
+  padding:2%;
+  border: 2px solid #8ED1C7;
 }
 #tituloParrafos{
   font-size: 4vw;
+  color:#A02841;
+  font-family: 'Lobster Two', cursive;
 }
 .secciones{
   flex-direction: column;
@@ -80,35 +100,26 @@ img{
 }
 #seccionVideo{
 
-  background: #707070;
-  padding:3%;
+  background: #8ED1C7;
+  padding:3%;font-family: 'Lobster Two', cursive;
 }
-/*#contenedorVideo{
-  width:50%;
+#contenedorVideo{
+  width:80%;
 }
 iframe{
-  width:100%;
-}*/
-.contenedorVideo {
-  position: relative;
-  padding-bottom: 56%;
-  overflow: hidden;
-
+  max-width:100%;
 }
 
-.contenedorVideo iframe {
-  position: absolute;
-  width: 50%;
-  /*height: 80%;*/
-  /*left: 10%;*/
-
-}
 #tituloVideo{
   font-size: 5vw;
   padding: 1%;
   margin:1%;
+  color:#fff;
+  font-family: 'Lobster Two', cursive;
 }
 form{
+  background:  #8ED1C7;
+  margin:1%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -117,6 +128,9 @@ form{
   align-content: center;
   width: 40%;
   padding:3%;
+}
+#tituloForm{
+  font-family: 'Lobster Two', cursive;
 }
 footer{
   background: #707070;
@@ -131,5 +145,11 @@ input , textarea{
   padding:1%;
   margin: 1%;
 }
-
+button{
+  border: none;
+  color:#fff;
+  background-color: #A02841;
+  padding: 2%;
+  font-family: 'Lobster Two', cursive;
+}
 /*cambio a mobile*/
