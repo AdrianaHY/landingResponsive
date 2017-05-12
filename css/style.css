@@ -68,3 +68,13 @@ img{
 #tituloParrafos{
   font-size: 4em;
 }
+#seccionVideo{
+  flex-direction: column;
+  background: #707070;
+  padding:3%;
+}
+#tituloVideo{
+  font-size: 5em;
+  padding: 1%;
+  margin:1%;
+}
